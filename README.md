@@ -12,6 +12,17 @@ Use of open source libraries are allowed. Design and implementations are open to
 Objective:
 Demonstrate how to use Jetpack Libraries - Navigation, Data Binding, Hilt following Clean Architecture
 
+Change Log:
+1. Initial commit with auto-generated code
+2. Added desugaring library to compile against Java 11
+3. Added Logging - logback-android
+4. Changed source library src/main/kotlin
+5. Added presentation module for ViewModels
+6. Added fragments for other search inputs and results
+7. Added Navigation library with safeargs
+8. Enabled click listener for "Next" button for navigation
+9. Updated ReadMe.txt
+
 TODO:
 1. Make ViewModel Shared
 2. Use View/Data binding and update layouts 

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_menu"
+    app:startDestination="@id/regionFragment">
+
+    <fragment
+        android:id="@+id/regionFragment"
+        android:name="com.msd.rentalsearch.ui.RegionFragment"
+        android:label="fragment_region"
+        tools:layout="@layout/fragment_region" >
+        <action
+            android:id="@+id/action_regionFragment_to_numberOfRoomsFragment"
+            app:destination="@id/numberOfRoomsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/numberOfRoomsFragment"
+        android:name="com.msd.rentalsearch.ui.NumberOfRoomsFragment"
+        android:label="fragment_no_of_rooms"
+        tools:layout="@layout/fragment_no_of_rooms" >
+        <action
+            android:id="@+id/action_numberOfRoomsFragment_to_rentPerWeekFragment"
+            app:destination="@id/rentPerWeekFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/rentPerWeekFragment"
+        android:name="com.msd.rentalsearch.ui.RentPerWeekFragment"
+        android:label="fragment_rent_per_week"
+        tools:layout="@layout/fragment_rent_per_week" >
+        <action
+            android:id="@+id/action_rentPerWeekFragment_to_searchResultFragment"
+            app:destination="@id/searchResultFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchResultFragment"
+        android:name="com.msd.rentalsearch.ui.SearchResultFragment"
+        android:label="SearchResultFragment" />
+</navigation>

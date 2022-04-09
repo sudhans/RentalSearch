@@ -1,4 +1,4 @@
-package com.msd.rentalsearch.ui
+package com.msd.rentalsearch.app
 
 import android.app.Application
 import org.slf4j.LoggerFactory

@@ -1,4 +1,4 @@
-package com.msd.widget.rentalsearch
+package rentalsearch
 
 import org.junit.Test
 

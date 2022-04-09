@@ -1,4 +1,4 @@
-package com.msd.widget.rentalsearch.ui.main
+package com.msd.rentalsearch.ui
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -6,7 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.msd.widget.rentalsearch.R
+import com.msd.rentalsearch.R
 
 class MainFragment : Fragment() {
 

@@ -1,4 +1,4 @@
-package com.msd.widget.rentalsearch.ui.main
+package com.msd.rentalsearch.ui
 
 import androidx.lifecycle.ViewModel
 

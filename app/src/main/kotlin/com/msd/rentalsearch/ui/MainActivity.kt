@@ -1,8 +1,8 @@
-package com.msd.widget.rentalsearch
+package com.msd.rentalsearch.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.msd.widget.rentalsearch.ui.main.MainFragment
+import com.msd.rentalsearch.R
 
 class MainActivity : AppCompatActivity() {
 

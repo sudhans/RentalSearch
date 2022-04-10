@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import com.msd.rentalsearch.R
-import com.msd.rentalsearch.viewmodel.SharedSearchViewModel
+import com.msd.rentalsearch.presentation.viewmodel.SharedSearchViewModel
 
 class SearchResultFragment: Fragment() {
     private val viewModel: SharedSearchViewModel by activityViewModels()

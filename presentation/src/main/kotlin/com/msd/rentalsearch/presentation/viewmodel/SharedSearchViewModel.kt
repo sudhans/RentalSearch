@@ -1,4 +1,4 @@
-package com.msd.rentalsearch.viewmodel
+package com.msd.rentalsearch.presentation.viewmodel
 
 import androidx.lifecycle.ViewModel
 import org.slf4j.LoggerFactory

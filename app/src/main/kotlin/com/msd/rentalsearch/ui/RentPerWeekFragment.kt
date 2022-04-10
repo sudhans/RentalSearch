@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.findNavController
 import com.msd.rentalsearch.R
-import com.msd.rentalsearch.viewmodel.SharedSearchViewModel
+import com.msd.rentalsearch.presentation.viewmodel.SharedSearchViewModel
 
 class RentPerWeekFragment : Fragment(){
 

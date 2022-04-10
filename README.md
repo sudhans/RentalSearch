@@ -31,6 +31,7 @@ Change Log:
 8. Enabled click listener for "Next" button for navigation
 9. Updated ReadMe.txt
 10. ViewModel is now shared
+11. Added other modules with respective dependencies
 
 TODO:
 1. Use View/Data binding and update layouts 

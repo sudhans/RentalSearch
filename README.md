@@ -22,14 +22,14 @@ Change Log:
 7. Added Navigation library with safeargs
 8. Enabled click listener for "Next" button for navigation
 9. Updated ReadMe.txt
+10. ViewModel is now shared
 
 TODO:
-1. Make ViewModel Shared
-2. Use View/Data binding and update layouts 
-3. Use RecyclerView with dummy data for search results
-4. Use Retrofit to get dummy data via network
-5. Use Room to save network / dummy data
-6. Use Coroutines to get data from room and update with fresh network calls
+1. Use View/Data binding and update layouts 
+2. Use RecyclerView with dummy data for search results
+3. Use Retrofit to get dummy data via network
+4. Use Room to save network / dummy data
+5. Use Coroutines to get data from room and update with fresh network calls
 
 
 

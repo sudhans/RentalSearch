@@ -12,11 +12,14 @@
         android:id="@+id/rangeslider_rentperweek"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:stepSize="100"
-        android:valueFrom="100"
-        android:valueTo="1000"
+        android:stepSize="500"
+        android:valueFrom="2000"
+        android:valueTo="20000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        app:labelBehavior="visible"
         app:values="@array/rent_per_week_slider_values" />
 
     <androidx.appcompat.widget.AppCompatButton

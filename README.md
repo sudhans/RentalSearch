@@ -32,6 +32,7 @@ Change Log:
 9. Updated ReadMe.txt
 10. ViewModel is now shared
 11. Added other modules with respective dependencies
+12. Enabled Up navigation
 
 TODO:
 1. Use View/Data binding and update layouts 
@@ -39,7 +40,6 @@ TODO:
 3. Use Retrofit to get dummy data via network
 4. Use Room to save network / dummy data
 5. Use Coroutines to get data from room and update with fresh network calls
-6. Enable UP navigation to go back
 
 Nice to have:
 1. Option to save/favorite search queries

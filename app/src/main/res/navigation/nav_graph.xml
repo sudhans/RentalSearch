@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/regionFragment"
         android:name="com.msd.rentalsearch.ui.RegionFragment"
-        android:label="fragment_region"
+        android:label="Select Region"
         tools:layout="@layout/fragment_region" >
         <action
             android:id="@+id/action_regionFragment_to_numberOfRoomsFragment"
@@ -19,7 +19,7 @@
     <fragment
         android:id="@+id/numberOfRoomsFragment"
         android:name="com.msd.rentalsearch.ui.NumberOfRoomsFragment"
-        android:label="fragment_no_of_rooms"
+        android:label="Select Rooms"
         tools:layout="@layout/fragment_no_of_rooms" >
         <action
             android:id="@+id/action_numberOfRoomsFragment_to_rentPerWeekFragment"
@@ -30,7 +30,7 @@
     <fragment
         android:id="@+id/rentPerWeekFragment"
         android:name="com.msd.rentalsearch.ui.RentPerWeekFragment"
-        android:label="fragment_rent_per_week"
+        android:label="Select Rent Per Week"
         tools:layout="@layout/fragment_rent_per_week" >
         <action
             android:id="@+id/action_rentPerWeekFragment_to_searchResultFragment"
@@ -41,5 +41,5 @@
     <fragment
         android:id="@+id/searchResultFragment"
         android:name="com.msd.rentalsearch.ui.SearchResultFragment"
-        android:label="SearchResultFragment" />
+        android:label="Search Results" />
 </navigation>

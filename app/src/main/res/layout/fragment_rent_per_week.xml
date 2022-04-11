@@ -7,25 +7,27 @@
     android:layout_height="match_parent"
     tools:context=".ui.RentPerWeekFragment">
 
-    <TextView
-        android:id="@+id/message"
-        android:layout_width="wrap_content"
+    <!-- Discrete slider -->
+    <com.google.android.material.slider.RangeSlider
+        android:id="@+id/rangeslider_rentperweek"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Rent Per Week Fragment"
+        android:stepSize="100"
+        android:valueFrom="100"
+        android:valueTo="1000"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:values="@array/rent_per_week_slider_values" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Next"
         android:layout_margin="16dp"
+        android:text="Next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/message" />
+        app:layout_constraintTop_toTopOf="@id/rangeslider_rentperweek" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

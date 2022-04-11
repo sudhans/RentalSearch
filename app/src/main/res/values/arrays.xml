@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="rent_per_week_slider_values">
+        <item>100</item>
+        <item>1000</item>
+    </integer-array>
+</resources>

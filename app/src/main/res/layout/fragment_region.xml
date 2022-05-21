@@ -18,9 +18,11 @@
     app:layout_constraintBottom_toBottomOf="parent"
     android:hint="Select Region"
     >
-       <AutoCompleteTextView
+       <androidx.appcompat.widget.AppCompatAutoCompleteTextView
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
+           android:id="@+id/region_inputtext"
+           android:focusable="false"
            tools:text = "@string/default_region"
            android:inputType="textAutoComplete"/>
 </com.google.android.material.textfield.TextInputLayout>

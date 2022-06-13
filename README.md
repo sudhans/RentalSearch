@@ -19,6 +19,7 @@ Assume standard Non-Functional requirements
 Objective:
 * Demonstrate how to use MVVM with Jetpack Libraries - ViewModel, Navigation, Data Binding, Hilt 
 * Use Clean Architecture to demonstrate Testability and Separation of Concerns
+* Note: Excuse the UI/UX - The focus is only on Clean Architecutre
 
 Change Log:
 1. Initial commit with auto-generated code
